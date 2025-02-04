@@ -25,7 +25,6 @@ export async function connectToDatabase(){
             .then(()=>mongoose.connection)
             .catch()
     }
-
     try{
         cached.conn = await cached.promise
     }catch(err){
