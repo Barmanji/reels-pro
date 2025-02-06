@@ -1,5 +1,5 @@
 import mongoose, { model, Schema, models } from "mongoose"; //model for creating new, models for giving an array of all models
-import bcrypt from "bcrypt";
+import bcrypt from "bcryptjs";
 
 export interface IUser {
     email: string;
