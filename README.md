@@ -20,7 +20,6 @@ A modern Next.js application for managing and selling video content using ImageK
 - **Authentication**: NextAuth.js, JWT
 - **Database**: MongoDB with Mongoose
 - **File Storage**: ImageKit
-- **Payment**: Razorpay
 - **Email**: Nodemailer
 - **Form Handling**: React Hook Form
 
@@ -29,7 +28,6 @@ A modern Next.js application for managing and selling video content using ImageK
 - Node.js (Latest LTS version)
 - MongoDB Database
 - ImageKit Account
-- Razorpay Account
 - SMTP Server (for email notifications)
 
 ## Getting Started
@@ -37,7 +35,8 @@ A modern Next.js application for managing and selling video content using ImageK
 1. Clone the repository:
 ```bash
 git clone <repository-url>
-cd imagekit-video-main
+cd reels-pro
+
 ```
 
 2. Install dependencies:
@@ -73,15 +72,6 @@ IMAGEKIT_PUBLIC_KEY=
 IMAGEKIT_PRIVATE_KEY=
 IMAGEKIT_URL_ENDPOINT=
 
-# Razorpay
-RAZORPAY_KEY_ID=
-RAZORPAY_KEY_SECRET=
-
-# Email (SMTP)
-SMTP_HOST=
-SMTP_PORT=
-SMTP_USER=
-SMTP_PASS=
 ```
 
 ## Available Scripts
@@ -91,7 +81,6 @@ SMTP_PASS=
 - `npm run start` - Start production server
 - `npm run lint` - Run ESLint
 - `npm run seed` - Seed the database
-- `npm run mailtrap` - Test email configuration
 
 ## Project Structure
 
