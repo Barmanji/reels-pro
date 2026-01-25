@@ -23,7 +23,7 @@
     "jsonwebtoken": "^9.0.2",
     "lucide-react": "^0.468.0",
     "mongoose": "^8.8.4",
-    "next": "15.0.4",
+    "next": "15.0.7",
     "next-auth": "^4.24.11",
     "nodemailer": "^6.9.16",
     "razorpay": "^2.9.2",
