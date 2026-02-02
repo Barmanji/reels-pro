@@ -97,14 +97,7 @@ IMAGEKIT_URL_ENDPOINT=
 └── types.d.ts         # TypeScript declarations
 ```
 
-## Contributing
-
-NO CONTRIBUTING PLEASE!
-
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Support
-
-For support, watch youtube video
